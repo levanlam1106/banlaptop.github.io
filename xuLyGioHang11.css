@@ -1,0 +1,185 @@
+
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: all;
+	font-size: medium;
+	line-height: 1;
+	color: #333;
+	font-weight: 300;
+		background-color: #EEE;
+}
+.admin .menu{
+	position: relative;
+	background-color: black;
+	display: flex;
+	height: 40px;
+	align-items: center;
+	font-size: 16px;
+}
+.admin .menu div:first-child{
+	width: 250px;
+	text-align: center;
+}
+.admin .menu div i{
+	padding-right: 7px;
+}
+.admin .menu div:nth-child(3){
+	width: 200px;
+	text-align: center;
+}
+.admin .menu div:nth-child(5){
+	width: 150px;
+	text-align: center;
+}
+.admin .menu div a{
+	text-decoration: none;
+	color: white;
+}
+.admin .menu div:last-child{
+	position: absolute;
+	right: 7px;
+	color: white;
+}
+.admin .content{
+	display: flex;
+ 
+}
+.admin .content_trai{
+	width: 16.64%;
+ 
+}
+.admin .content_trai ul{
+	margin: 0;
+	padding: 0;
+}
+.admin .content_trai ul li{
+	list-style: none;
+	display: block;
+	padding-left: 15px;
+	padding: 15px;
+	border-bottom: 1px solid grey;
+}
+.admin .content .content_trai ul li a{
+	text-decoration: none;
+}
+
+.admin .content .content_trai ul li a i{
+	padding-right: 7px;
+}
+.admin .content .content_trai ul li:first-child{
+	padding-top: 25px;
+}
+.admin .content .content_phai{
+	 width: 84%;
+	 padding-top: 10px;
+	 position: relative;
+	 background-color: white;
+} 
+.admin .content .content_phai .header{
+	 display: flex;
+	 width: 100%;
+	 padding-top: 15px;
+} 
+.admin .content .content_phai .header a{
+	color: red;
+	padding-left: 15px; 
+	text-decoration: none;
+}
+.admin .content .content_phai .header .form_xuLy{
+	margin-left: 50px;
+}
+/*.admin .content .content_phai .header .form_xuLy select{
+	width: 100px;
+} */
+.admin .content .content_phai .timkiem {
+	 width: 60%;
+	 display: flex;
+	 justify-content: center;
+} 
+.admin .content .content_phai .timkiem form{
+	width: 65%;
+} 
+ .admin .content .content_phai .timkiem form input[type="text"]{ 
+	 width: 90%;
+	 padding: 10px;
+	 float:left;
+	 border: 1px solid grey;
+ 
+} 
+.admin .content .content_phai .timkiem form button{
+	 width: 10%;
+	 padding: 10px;
+	 background: lightblue;
+	 color: white;
+	 float: left;
+	 border: 1px solid grey;
+	 border-left: none;
+	 cursor: pointer;
+} 
+/* hiển thị các đơn hàng*/ 
+.hienthi{
+	padding: 0 15px;
+	padding-top: 15px;
+}
+.hienthi table,td,th{
+	border: 1px solid;
+	border-collapse: collapse;
+}
+.hienthi table .noiNhan{
+	width: 230px;
+}
+.hienthi table tr td:first-child, td:nth-child(2),td:nth-child(3),td:nth-child(4){
+	width: 50px;
+}
+.hienthi table tr td:last-child{
+	text-align: center;
+}
+.hienthi table tr td:last-child a{
+	 color:red;
+}
+
+.frm_sua{
+	width: 700px;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+.frm_sua input, textarea{
+	width: 100%;
+	outline-offset: none;
+	margin-top: 20px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.frm_sua select{
+	margin-top: 20px;
+	padding: 5px 0;
+	margin-bottom: 10px;
+}
+.frm_sua input[type="submit"]{
+	cursor: pointer;
+	background-color: blue;
+	font-size: 18px;
+	color: white;
+}
+.frm_sua .SuaTT{
+	width: 100%;
+	padding: 5px 0;
+}
+.admin .footed{
+	position: relative;
+	top:330px;
+	height: 150px;
+	background-color: black;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.admin .footed p{ 
+	color: white; 
+}

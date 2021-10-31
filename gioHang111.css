@@ -1,0 +1,408 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	font-family:"Helvetica Neue",Helvetia,Arial,sans-serif;
+	line-height: 1;
+	color: #333;
+	padding: 0;
+	margin:0;
+	font-weight: 300;
+	background-color: #EEE;
+	font-size: medium;
+}
+.container .header{
+	width: 100%;
+}
+.container .header .header_navbar{
+	width: 100%;
+	background-color: #EA2027;
+	height: 100%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+.container .header .header_navbar .logo{
+	width: 200px;
+	height: 60px;
+	position: relative;
+	left: 20px;
+} 
+ 
+.container .header .header_navbar .logo a img{
+	max-width: 100%;
+	max-height: 100%;
+	padding-top: 10px;
+} 
+.container .header .header_navbar .timkiem {
+	 width: 800px;
+	 /*padding-top: 10px;*/
+	 position: relative;
+	 left: 40px;
+} 
+.container .header .header_navbar .timkiem form{
+	 width: 800px;
+	 align-items: center;
+	 display: flex;
+} 
+.container .header .header_navbar .timkiem form input[type="text"]{
+	 width: 80%;
+	 padding: 10px;
+	 float: left;
+	 border: 1px solid transparent;
+	 border-top-left-radius: 10px;
+	 border-bottom-left-radius: 10px;
+ 
+} 
+.container .header .header_navbar .timkiem form button{
+	 width: 10%;
+	 padding: 9px;
+	 background: #2980b9;
+	 color: white;
+	 font-weight: 1000 !important;
+	 float: left;
+	 border: 1px solid transparent;
+	 border-top-right-radius: 10px;
+	 border-bottom-right-radius: 10px;
+	 cursor: pointer;
+} 
+.container .header .header_navbar .dangnhap1{
+	 padding: 0;
+	 margin: 0;
+	 display: flex;
+	 position: relative;
+	 left: -15px;
+}
+.container .header .header_navbar .dangnhap1 p{
+	color: #fff;
+}
+
+.container .header .header_navbar .dangnhap1 .dangxuat_ .dangxuat{
+	  display: none;
+	  z-index: 1; 
+}
+.container .header .header_navbar .dangnhap1 .dangxuat_ .dangxuat::after{
+	content: " ";
+	position: absolute;
+	border-width: 10px;
+	border-style: solid;
+	border-color:  transparent transparent #EE5A24 transparent;
+	bottom: 100%;
+}
+.container .header .header_navbar .dangnhap1 .dangxuat_{
+	cursor: pointer;
+}  
+
+i {
+	color: #fff;
+}
+
+.container .header .header_navbar .dangnhap1 .dangxuat_ a{ 
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 10px ;
+	/* border-bottom: 1px solid transparent; */
+}
+.container .header .header_navbar .dangnhap1 .dangxuat_ .dangxuat a:hover {
+	   background-color: #e84118;
+}
+
+.container .header .header_navbar .dangnhap1 .dangxuat_:hover .dangxuat{
+	display: block;
+	position: absolute;
+	background-color: #EE5A24;
+	width: 150px;
+	height: 90%;
+	text-align: left;
+	margin-top: 15px;
+
+} 
+.container .header .header_navbar .dangnhap1 li{
+	margin: 15px 15px 0;
+	list-style: none;
+	font-size: 15px;
+	display: block;
+	text-align: center;
+}  
+
+.container .header .header_navbar .dangnhap1 li:last-child {
+	margin-top: 25px;
+}
+.container .header .header_navbar .dangnhap1 li a{
+	 text-decoration: none;
+}
+.container .header .header_navbar .dangnhap1 li a i{
+	display: block;
+	padding-bottom: 3px;
+	color: white;
+}
+.container .header .navbar img{
+	 max-width: 120px;
+	 height: 120px;
+} 
+
+.container .header .navbar{
+	 width: 78%;
+	 display: flex;
+	 justify-content:space-evenly;
+	 margin : 0 auto;
+	 background-color: white;
+}
+
+.container .header .navbar a{
+	text-decoration: none;
+	background-color: white;
+	/* padding: 0 0.865em;  */
+}
+
+/*content*/
+.container .content{
+	width: 1183.29px;
+	margin: 0 auto;
+	position: relative;
+}
+.container .content .oMua{
+	height: 150px;
+	display: block;
+	display: flex;
+	padding-top: 15px;
+	width: 100%;
+}
+.container .content .oMua .trai{
+	width: 75%;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	padding-top: 15px;
+	position: relative;
+}
+.container .content .oMua .trai .img{
+	max-width: 100px;
+	margin-left: 15px;
+	margin-right: 20px;
+	padding-top: 0;
+}
+.container .content .oMua .trai .gia{
+	position: absolute;
+	right: 240px;
+}
+.container .content .oMua .trai .tenSanpham{
+	width: 350px;
+}
+.container .content .oMua .trai .tenSanpham a{
+	padding-top: 50px;
+}
+.container .content .oMua .trai img{
+	max-width: 100px;
+	margin-top: -5px;
+}
+.container .content .oMua .trai .so{
+	position: absolute;
+	right: 40px;
+	display: flex;
+}
+.container .content .oMua .trai .so #soLuong{
+	 margin-left: 7px;
+ 
+}
+.container .content .oMua a{
+	 text-decoration: none;
+	 color: blue;
+	 display: block;
+}
+.container .content .oMua .muahang{
+	 width: 25%;
+	border-radius: 5px;
+	 position: relative;
+	 background-color: white;
+	 margin-left: 15px;
+	 height: 100px;
+}
+.container .content .oMua .muahang span{
+	padding-left: 20px;
+	padding-right: 80px;
+}
+.container .content .oMua .muahang a{
+	width: 100%;
+	color: white;
+	background-color: red;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	border-radius: 5px;
+}
+
+/*dat hàng*/
+.container .content .frm_dathang{
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+	right: 0;
+	top:0px;
+	line-height: 2.8;
+	background-color: #D0E9EC;
+	display: none;
+}
+.container .content .frm_dathang td:first-child{
+	padding-left: 30px;
+	text-align: right;
+}
+
+.container .content .frm_dathang input,textarea{
+	margin-left: 30px;
+	width: 260px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+.container .content .frm_dathang select{
+	margin-left: 30px;
+	width: 260px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+.container .content .frm_dathang .submit_dathang{
+	width: 140px;
+	position: absolute;
+	bottom: 35px;
+	right: 60px;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+.container .content .frm_dathang .submit_huybo{
+	width: 110px;
+	position: absolute;
+	bottom: 35px;
+	right: 210px;
+	cursor: pointer;
+	border-radius: none;
+}
+.container .content .frm_dathang h3{
+	text-align: center;
+}
+.container .content .frm_dathang .close{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	font-size: 30px;
+	top: -17px;
+	right: -7px;
+	border-radius: 50px;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+.container .content .frm_dathang .close i{
+	position: absolute;
+ 	width: 20px;
+ 	height: 20px;
+ 	top: -25px;
+ 	left: 5.4px;
+} 
+
+/*chưa đăng nhập*/
+.DN{
+	display: flex;
+	 justify-content: center; 
+}
+.chuaDN{
+	position:absolute;
+	border-radius: 5px;
+	padding: 4px;
+	background-color: white;
+	top: 0;
+	width: 300px;
+	height: 130px;
+	border:3px solid rgba(255, 0, 0, 0.2); 
+}
+.chuaDN a{
+	width: 200px;
+	text-decoration: none;
+	margin: 0 50px;
+	height: 40px;
+	background-color: blue;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 1.0;
+}
+.chuaDN p{
+	padding: 0 20px;
+	text-align: left;
+	opacity: 1.0;
+}
+.chuaDN .thoatDN{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: red; 
+	position: absolute;
+	right:-9px; 
+	font-size: 25px;
+	text-align: center;
+	cursor: pointer;
+	top: -15px;
+	padding-top: 3px;
+	opacity: 1.0;
+}
+/*footed*/
+
+.footer {
+	margin-top: 150px;
+	padding: 0px;
+	display: flex;
+	width: 100%;
+	/*margin: 0 auto;*/
+	justify-content: center;
+	background-color: white;
+	/* position: absolute;
+	bottom: 0;
+	 */}
+.footer .column_footer ul{
+	margin: 0;
+	padding: 0;
+}
+.footer .column_footer ul li{
+	list-style: none;
+	padding: 10px 30px;
+}
+.footer .column_footer ul li a:hover{
+	border-bottom: 1px solid red;
+}
+.footer .column_footer a{
+	text-decoration: none;
+	color: black;
+}
+.footer .column_footer:last-child {
+	width: 240px;
+	height: 220px;
+}
+.footer .column_footer img{
+	max-width: 100%;
+}
+.footer .column_footer:nth-child(3){
+	padding: 0 30px;
+	padding-top: 10px;
+	 
+}
+.footer .column_footer:nth-child(4){
+	padding-left: 20px;
+	text-align: left;
+	 
+}
+.footer .column_footer table tr td{
+	padding-bottom: 10px;
+}
+.active{
+	background-color:  rgb(217, 217, 217);
+}

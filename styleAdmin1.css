@@ -1,0 +1,143 @@
+/*Admin*/
+
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: all;
+	font-size: medium;
+	line-height: 1;
+	color: #333;
+	font-weight: 300;
+		background-color: #EEE;
+}
+.admin .menu{
+	position: relative;
+	background-color: black;
+	display: flex;
+	height: 40px;
+	align-items: center;
+	font-size: 16px;
+}
+.admin .menu div:first-child{
+	width: 250px;
+	text-align: center;
+}
+.admin .menu div i{
+	padding-right: 7px;
+}
+.admin .menu div:nth-child(3){
+	width: 200px;
+	text-align: center;
+}
+.admin .menu div:nth-child(5){
+	width: 150px;
+	text-align: center;
+}
+.admin .menu div a{
+	text-decoration: none;
+	color: white;
+}
+.admin .menu div:last-child{
+	position: absolute;
+	right: 7px;
+	color: white;
+}
+.admin .content{
+	display: flex;
+ 
+}
+.admin .content_trai{
+	width: 16.34%;
+	border-right: 1px solid grey;
+	height: 600px;
+}
+.admin .content_trai ul{
+	margin: 0;
+	padding: 0;
+}
+.admin .content_trai ul li{
+	list-style: none;
+	display: block;
+	padding-left: 15px;
+	padding: 15px;
+	border-bottom: 1px solid grey;
+}
+.admin .content .content_trai ul li a{
+	text-decoration: none;
+}
+
+.admin .content .content_trai ul li a i{
+	padding-right: 7px;
+}
+.admin .content .content_trai ul li:first-child{
+	padding-top: 25px;
+}
+.admin .content img {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.admin .content .content_phai{
+	padding-top: 20px;
+	padding-left: 30px;
+}
+.admin .content .content_phai .box{
+	width: 300px;
+	height: 100px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+}
+.admin .content .content_phai .box1{
+ 	background-color: green;
+}
+.admin .content .content_phai .box1 .thanhTien{
+ 	color: white;
+ 	font-size: 18px;
+ 	display: flex;
+ 	justify-content: center;
+}
+.admin .content .content_phai .box2{
+	background-color:  lightblue;
+}
+.admin .content .content_phai .box2 .soLuongMH{
+	font-size: 18px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.admin .content .content_phai .box3{
+	background-color: blue;
+}
+.admin .content .content_phai .box3 .SPBC{
+	color: white;
+}
+.admin .content .content_phai .box4{
+	background-color: red;
+}
+.admin .content .content_phai .box4 .khMN{
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.admin .content .content_phai .box span{
+	text-align: center;
+	display: block;
+	padding-top: 7px;
+}
+.admin .footed{
+	height: 65px;
+	margin-top: 15px;
+	background-color: black;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.admin .footed p{ 
+	color: white;
+ 	 
+}
+ 

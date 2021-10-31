@@ -1,0 +1,159 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: all;
+	font-size: medium;
+	line-height: 1;
+	color: #333;
+	font-weight: 300;
+		background-color: #EEE;
+}
+.admin .menu{
+	position: relative;
+	background-color: black;
+	display: flex;
+	height: 40px;
+	align-items: center;
+	font-size: 16px;
+}
+.admin .menu div:first-child{
+	width: 250px;
+	text-align: center;
+}
+.admin .menu div i{
+	padding-right: 7px;
+}
+.admin .menu div:nth-child(3){
+	width: 200px;
+	text-align: center;
+}
+.admin .menu div:nth-child(5){
+	width: 150px;
+	text-align: center;
+}
+.admin .menu div a{
+	text-decoration: none;
+	color: white;
+}
+.admin .menu div:last-child{
+	position: absolute;
+	right: 7px;
+	color: white;
+}
+.admin .content{
+	display: flex;
+ 
+}
+.admin .content_trai{
+	width: 16.64%;
+ 
+}
+.admin .content_trai ul{
+	margin: 0;
+	padding: 0;
+}
+.admin .content_trai ul li{
+	list-style: none;
+	display: block;
+	padding-left: 15px;
+	padding: 15px;
+	border-bottom: 1px solid grey;
+}
+.admin .content .content_trai ul li a{
+	text-decoration: none;
+}
+
+.admin .content .content_trai ul li a i{
+	padding-right: 7px;
+}
+.admin .content .content_trai ul li:first-child{
+	padding-top: 25px;
+}
+.admin .content .content_phai{
+	 width: 84%;
+	 padding-top: 10px;
+	 position: relative;
+	 background-color: white;
+} 
+.admin .content .content_phai .addSanPham{
+	 background-color: #EEE;
+	 margin-top: 20px;
+	 margin-left: 20px;
+	 height: auto;
+	 font-size: 20px;
+}
+.admin .content .content_phai .addSanPham form{
+	 padding-top: 15px;
+	 padding-left: 15px;
+	 position: relative;
+} 
+.admin .content .content_phai .addSanPham form table tr td:first-child{
+	 color: blue;
+	 padding-right: 70px;
+}
+.admin .content .content_phai .addSanPham form table tr .column2 input{
+	 width: 350px;
+	 padding: 7px 0;
+	 border-radius: 5px;
+	 border-top: none;
+	 border-left: none;
+}
+ 
+.admin .content .content_phai .addSanPham form table tr .phancach{
+	 padding-bottom: 20px;
+}
+.admin .content .content_phai .addSanPham form table tr .hinhanh input{
+	 padding-top: 20px;
+	 
+}
+.admin .content .content_phai .addSanPham form table tr td input[type="submit"], input[type="reset"]{
+	 background-color: #7D58F8;
+	 width: 50px;
+	 cursor: pointer;
+} 
+.admin .content .content_phai .addSanPham form table tr td span{
+	 color: red;
+	 position: absolute;
+	 top: 115px;
+	 left: 210px;
+	 font-size: 16px;
+} 
+.admin .content .content_phai #frm_hienthi{
+	 padding-top: 15px;
+	 padding-left: 15px;
+}
+.admin .content .content_phai .hienthi_sanpham, .cot, th{
+	 border: 1px solid grey ;
+	 border-collapse: collapse;
+}
+.admin .content .content_phai .hienthi_sanpham tr td:nth-child(2){
+	 width: 240px;
+}
+.admin .content .content_phai .hienthi_sanpham tr td:last-child{
+	width: 60px;
+}
+.admin .content .content_phai .hienthi_sanpham tr td img{
+	width: 100px;
+} 
+.admin .content .content_phai .hienthi_sanpham tr td i{
+	display: inline-block;
+	cursor: pointer;
+	padding: 0 5px;
+} 
+.admin .footed{
+	height: 65px;
+	margin-top: 15px;
+	background-color: black;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.admin .footed p{ 
+	color: white;
+ 	 
+}
